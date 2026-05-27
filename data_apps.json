@@ -1,0 +1,23 @@
+[
+  {
+    "id": "a001",
+    "title": "ชื่อแอปพลิเคชันของคุณ",
+    "cat": "apps",
+    "dev": "KBIOS",
+    "icon": "https://placehold.co/300x300/10b981/ffffff?text=App+Icon",
+    "img": [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200"
+    ],
+    "video": "",
+    "rate": 4.5,
+    "size": "25MB",
+    "ver": "1.0.0",
+    "downloads": "1K+",
+    "age": "3+",
+    "tags": ["Tools", "Productivity"],
+    "desc": "คำอธิบายแอปพลิเคชันของคุณตรงนี้",
+    "updated": "2026-05-27",
+    "pkg": "com.yourdomain.app",
+    "link": ""
+  }
+]

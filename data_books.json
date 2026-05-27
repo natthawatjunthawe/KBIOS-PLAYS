@@ -1,0 +1,23 @@
+[
+  {
+    "id": "b001",
+    "title": "ชื่อหนังสือหรือ E-Book",
+    "cat": "books",
+    "dev": "KBIOS",
+    "icon": "https://placehold.co/300x300/8b5cf6/ffffff?text=Book+Icon",
+    "img": [
+      "https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=1200"
+    ],
+    "video": "",
+    "rate": 4.8,
+    "size": "12MB",
+    "ver": "1.0",
+    "downloads": "500+",
+    "age": "All",
+    "tags": ["E-Book", "Education"],
+    "desc": "คำอธิบายรายละเอียดหนังสือตรงนี้",
+    "updated": "2026-05-27",
+    "pkg": "book.yourdomain.title",
+    "link": ""
+  }
+]

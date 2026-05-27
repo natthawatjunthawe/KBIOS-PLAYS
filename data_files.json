@@ -1,0 +1,23 @@
+[
+  {
+    "id": "f001",
+    "title": "ชื่อไฟล์ระบบหรือซอร์สโค้ด",
+    "cat": "files",
+    "dev": "KBIOS",
+    "icon": "https://placehold.co/300x300/3b82f6/ffffff?text=File+Icon",
+    "img": [
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200"
+    ],
+    "video": "",
+    "rate": 4.2,
+    "size": "150MB",
+    "ver": "v1.0-alpha",
+    "downloads": "100+",
+    "age": "System",
+    "tags": ["Zip", "Source Code", "System"],
+    "desc": "คำอธิบายรายละเอียดไฟล์ดาวน์โหลดตรงนี้",
+    "updated": "2026-05-27",
+    "pkg": "sys.yourdomain.patch",
+    "link": ""
+  }
+]

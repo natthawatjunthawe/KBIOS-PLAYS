@@ -1,0 +1,31 @@
+{
+  "bg": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1920&auto=format&fit=crop",
+  "items": [
+    {
+      "id": "g001",
+      "title": "Neon Snake Classic",
+      "cat": "games",
+      "dev": "Neon Studios",
+      "icon": "https://placehold.co/300x300/0f172a/10b981?text=SNAKE",
+      "img": [
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200",
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1200"
+      ],
+      "video": "https://www.youtube.com/embed/V6-0kYhqoRo",
+      "rate": 4.3,
+      "size": "2.23kB",
+      "ver": "0.1",
+      "downloads": "3",
+      "age": "All",
+      "tags": ["Action", "Arcade", "Retro"],
+      "desc": "สัมผัสประสบการณ์เกม",
+      "updated": "2026-05-24",
+      "released": "2026-05-01",
+      "type": "HTML5 Canvas",
+      "pkg": "com.neonstudios.cybersnake",
+      "lang": "English",
+      "compat": "PC & Mobile",
+      "link": "<html><head><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0\"><style>body{margin:0;background:%230f172a;color:%2310b981;font-family:system-ui;display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;overflow:hidden;touch-action:none}#s{font-size:24px;font-weight:900;text-shadow:0 0 10px %2310b981;margin-bottom:15px}canvas{box-shadow:0 0 20px rgba(16,185,129,.5);border:2px solid %2310b981;border-radius:8px;background:%23000;max-width:95vw;max-height:50vh}.dpad{display:grid;grid-template-columns:repeat(3,60px);gap:10px;margin-top:20px}.btn{width:60px;height:60px;background:rgba(16,185,129,.2);border:2px solid %2310b981;border-radius:50%;color:%23fff;font-size:24px;display:flex;justify-content:center;align-items:center;user-select:none}.btn:active{background:%2310b981}</style></head><body><div id=\"s\">SCORE: 0</div><canvas id=\"c\" width=\"400\" height=\"400\"></canvas><div class=\"dpad\"><div></div><div class=\"btn\" id=\"u\">▲</div><div></div><div class=\"btn\" id=\"l\">◀</div><div class=\"btn\" id=\"d\">▼</div><div class=\"btn\" id=\"r\">▶</div></div><script>const cvs=document.getElementById(\"c\"),ctx=cvs.getContext(\"2d\");let sz=20,tc=20,px=10,py=10,xv=1,yv=0,ax=15,ay=15,tr=[],tl=5,sc=0;function lp(){px+=xv;py+=yv;if(px<0)px=tc-1;if(px>tc-1)px=0;if(py<0)py=tc-1;if(py>tc-1)py=0;ctx.fillStyle=\"%230f172a\";ctx.fillRect(0,0,cvs.width,cvs.height);ctx.shadowBlur=15;ctx.shadowColor=\"%2310b981\";ctx.fillStyle=\"%2310b981\";for(let i=0;i<tr.length;i++){ctx.fillRect(tr[i].x*sz,tr[i].y*sz,sz-2,sz-2);if(tr[i].x===px&&tr[i].y===py){tl=5;sc=0;document.getElementById(\"s\").innerText=\"SCORE: 0\"}}tr.push({x:px,y:py});while(tr.length>tl)tr.shift();if(ax===px&&ay===py){tl++;sc+=10;document.getElementById(\"s\").innerText=\"SCORE: \"+sc;ax=Math.floor(Math.random()*tc);ay=Math.floor(Math.random()*tc)}ctx.shadowColor=\"%23ef4444\";ctx.fillStyle=\"%23ef4444\";ctx.fillRect(ax*sz,ay*sz,sz-2,sz-2);setTimeout(lp,100)}lp();const dir=(x,y)=>{if(xv!==-x&&yv!==-y){xv=x;yv=y}};window.addEventListener(\"keydown\",e=>{if(e.key===\"ArrowUp\"||e.key===\"w\")dir(0,-1);if(e.key===\"ArrowDown\"||e.key===\"s\")dir(0,1);if(e.key===\"ArrowLeft\"||e.key===\"a\")dir(-1,0);if(e.key===\"ArrowRight\"||e.key===\"d\")dir(1,0)});const bind=(id,x,y)=>{const el=document.getElementById(id);el.ontouchstart=e=>{e.preventDefault();dir(x,y)};el.onmousedown=()=>dir(x,y)};bind(\"u\",0,-1);bind(\"d\",0,1);bind(\"l\",-1,0);bind(\"r\",1,0);</script></body></html>"
+    }
+  ]
+}

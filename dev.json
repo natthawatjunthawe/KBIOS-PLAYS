@@ -1,0 +1,36 @@
+{
+  "KBIOS": {
+    "bg": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1920&auto=format&fit=crop",
+    "icon": "KBIOSPLAYS.png",
+    "banner": "",
+    "video": "",
+    "featured_title": "Coming Soon",
+    "featured_desc": "ขณะนี้ยังไม่มีโปรเจกต์ไฮไลท์ที่เปิดใช้งานอย่างเป็นทางการ เร็ว ๆ นี้พบกันแน่นอน",
+    "featured_banner": "",
+    "socials": [],
+    "founded": "2026-01-01",
+    "country": "Thailand",
+    "employees": "1-10",
+    "website": [],
+    "verified": true,
+    "updated": "2026-05-22",
+    "description": "ค้นพบจิตนาการในแบรนด์"
+  },
+  "Neon Studios": {
+    "bg": "",
+    "icon": "https://placehold.co/300x300/ffffff/ea4335?text=Neon",
+    "banner": "",
+    "video": "https://www.youtube.com/embed/kXYiU_JCYtU",
+    "featured_title": "Neon Cyber",
+    "featured_desc": "Neon Studios",
+    "featured_banner": "",
+    "socials": [],
+    "founded": "2024-05-20",
+    "country": "Thailand",
+    "employees": "11-50",
+    "website": "",
+    "verified": true,
+    "updated": "2026-05-25",
+    "description": "Neon Studios สตูดิโอผู้พัฒนาแพลตฟอร์มและดิจิทัลคอนเทนต์แนวหน้า มุ่งเน้นการมอบประสบการณ์ที่ล้ำสมัยและตื่นตาตื่นใจแก่ผู้ใช้งานทั่วโลก"
+  }
+}
