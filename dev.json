@@ -1,12 +1,12 @@
 {
   "KBIOS": {
-    "bg": "KBIOSPLAYS.png",
-    "icon": "KBIOS.png",
-    "banner": "KBIOSPLAYS.png",
+    "bg": "KBIOS.png",
+    "icon": "KBIOSPLAY.png",
+    "banner": "KBIOS.png",
     "video": "",
-    "featured_title": "KBIOS CEMM",
+    "featured_title": "KBIOS LLC",
     "featured_desc": "Walking",
-    "featured_banner": "KBIOS",
+    "featured_banner": "KBIOS.png",
     "socials": [],
     "founded": "2026-01-01",
     "country": "Thailand",
